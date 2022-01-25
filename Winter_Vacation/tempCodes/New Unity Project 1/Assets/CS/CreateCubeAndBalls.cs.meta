@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: d6bc00c6a0445f54799592fab953fda2
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - XingDi: {fileID: 3905335876889102155, guid: 428a655fcc999334cbeb647790dbc156, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

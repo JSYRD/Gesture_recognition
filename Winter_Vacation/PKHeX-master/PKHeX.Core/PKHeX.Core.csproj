@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;net46</TargetFrameworks>
+    <Description>Pokémon C# Class Library</Description>
+    <Company>Project Pokémon</Company>
+    <Copyright>Kaphotics</Copyright>
+    <NeutralLanguage>en</NeutralLanguage>
+    <PackageLicenseUrl>https://github.com/kwsch/PKHeX/blob/master/LICENSE.md</PackageLicenseUrl>
+    <PackageIconUrl>https://github.com/kwsch/PKHeX/blob/master/PKHeX.WinForms/icon.ico</PackageIconUrl>
+    <PackageProjectUrl />
+    <RepositoryUrl>https://github.com/kwsch/PKHeX</RepositoryUrl>
+    <LangVersion>10</LangVersion>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'">
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="IndexRange" Version="1.0.0" />
+    <PackageReference Include="System.Memory" Version="4.5.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\**" />
+    <EmbeddedResource Include="Resources\**" />
+  </ItemGroup>
+
+</Project>

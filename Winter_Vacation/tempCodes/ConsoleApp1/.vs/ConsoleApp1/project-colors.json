@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "c2bd2929-11f4-49ca-aae7-e8eee50adae7": {
+      "ProjectGuid": "c2bd2929-11f4-49ca-aae7-e8eee50adae7",
+      "DisplayName": "ConsoleApp1",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "杂项文件",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 1
+}
